@@ -1,0 +1,143 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+cursor: default;
+
+}
+header {
+
+
+
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+ background-image:url(https://image.freepik.com/free-vector/blue-special-paper-with-plants_1308-6751.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+
+}
+h1{
+color: rgba(255,200,0,1);
+font-style: bold;
+text-shadow: 6px 3px 3px black;
+font-size:6em;
+font-weight: 800;
+text-align: center;
+z-index: 3;
+}
+h2{
+  font-size: 1.5em;
+
+
+}
+p {
+  padding-top: 1px;
+    font: 22px bolder white;
+
+
+}
+
+.card
+{
+z-index: 2;
+background-color: rgba(10,10,10,0.6);
+border: solid 10px rgba(0,210,255,0.4);
+border-radius: 20px;
+padding-top: 0.3rem;
+color: white;
+text-shadow: 3em 3rem 3em white;
+opacity: 0.9;
+margin: auto;
+text-align: center;
+object-position: center;
+}
+.card-body{
+
+}
+.card-img-top{
+    /*border: solid 15px rgba(225,225,225,0.3);*/
+    margin:auto;
+    border-radius: 25px;
+    transition: all;
+    height: auto;
+    width: auto;
+    padding-left:8px;
+}
+.card-img-top:hover{
+
+transform-style: preserve-3d;
+  transition-timing-function: ease-in-out;
+  transform: scale(1.11);
+  transition-duration: 3s;
+  transform-origin: center;
+}
+
+.card-text{
+  font-size: 2rem;
+    color: rgba(0,200,255,0.7);
+  text-shadow:-2px 2px 3px rgba(125,125,155,0.8);
+  transition: all;
+  }
+  /*.card-body:hover{
+    text-shadow: -3px, 3px, 3px,black;
+  transform-style:flat;
+    transition-timing-function:ease-in-out;
+    transform: scale(1.1);
+    transition-duration: 1.5s;
+    transform-origin: center;
+  }
+*/
+.sub-title {
+
+
+  font-size: 1.8rem;
+
+}
+.icon{
+  margin-bottom: 150px;
+  z-index: 1;
+  float: right ;
+  align-self:  center;
+    width: 55px;
+  height: 55px;
+  background-image: url(wedding-date-icon.png);
+  background-position: center;
+  background-size: contain;
+  transition: width 2s, height 2s;
+
+  }
+.icon:hover {
+  transition-property: width, height;
+  width: 100px;
+  height: 100px;
+  background-image: url(cheers-icon.png);
+  background-repeat: no-repeat;
+  color: black;
+  font-size:0.1em;
+  font-style:  normal;
+  font-weight: 900;
+  
+
+*/
+}
+
+
+}
+
+.ad:hover{
+  transform: rotate(360deg);
+  transition-duration: 3s;
+  transition-delay: 0.2;
+  transform-origin: bottom;
+
+}
+.legal{
+  font-size: 0.1px;
+}
+
+
+}
